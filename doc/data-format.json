@@ -1,0 +1,8 @@
+﻿{
+attrs:[
+ { zdmj:123, cs:11, jzmj:123.123 }                 /* 有可能多个 */
+],
+current:{zdmj:"", cs:"", jzmj:""},
+result:{status:''}                                 /* 1:  新建 2:扩建 */
+}
+
