@@ -18,7 +18,11 @@ the format used for search function:
 
 {
 	zrzh:"by123",
-	groupId:1,      # the group in terra explorer
+	
+	current:{zdmj:"", cs:"", jzmj:""},
+	result:{status:''}
+
+	groupId:1,      # the group in terra explorer , TODO: remove it
 	address"......",
 	x:123,
 	y:345,
