@@ -1,0 +1,29 @@
+﻿
+
+the format used in TerraExplorer, each building:
+{
+	zrzh:"by123456",
+	attrs:[
+		{ zdmj:123, cs:11, jzmj:123.123 }                 /* 有可能多个 */
+	],
+	current:{zdmj:"", cs:"", jzmj:""},
+	result:{status:''}                                 /* 1:  新建 2:扩建 */
+}
+
+
+
+
+
+the format used for search function:
+
+{
+	zrzh:"by123",
+	groupId:1,      # the group in terra explorer
+	address"......",
+	x:123,
+	y:345,
+	attributes:[{}...];            # no care
+}
+
+
+
