@@ -37,6 +37,7 @@ $FLY_REPO_DIR/vid/vid.fly
 
 type images:
 type1.png  -- type6.png  saved in $FLY_REPO_DIR/vid/data/
+transparent.png
 
 
 
