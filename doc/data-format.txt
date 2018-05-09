@@ -26,6 +26,8 @@ the format used for search function:
 	address"......",
 	x:123,
 	y:345,
+	roof:[[x0,y0],[x1,y1],[x2,y2]],   # the polygon of roof
+
 	attributes:[{}...];            # no care
 }
 
