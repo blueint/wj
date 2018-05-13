@@ -3,11 +3,12 @@
 the format used in TerraExplorer, each building:
 {
 	zrzh:"by123456",
+	objectId:'123456',
 	attrs:[
 		{ zdmj:123, cs:11, jzmj:123.123 }                 /* 有可能多个 */
 	],
 	current:{zdmj:"", cs:"", jzmj:""},
-	result:{status:''}                                 /* 1:  新建 2:扩建 */
+	result:''                                 // 1-6,  1:  新建 2:扩建 */
 }
 
 
@@ -18,7 +19,6 @@ the format used for search function:
 
 {
 	zrzh:"by123",
-	
 	current:{zdmj:"", cs:"", jzmj:""},
 	result:{status:''}
 
@@ -35,10 +35,13 @@ the format 2:
 {
 	zrzh:'by123',
 	attrs:[{}, {} ],
-	roofs:[ {x:123,y:123, poly:[p0,p1....], 
-			attrIdx:x,         // 
-			current:{zdmj:"", cs:"", jzmj:""}, 
-			result:""  },      //  result : 1-6  /* 1:  新建 2:扩建 */
+	roofs:[ 
+		{x:123,y:123, 
+		groupId:1,
+		poly:[p0,p1....], 
+		attrIdx:x,         // 
+		current:{zdmj:"", cs:"", jzmj:""}, 
+		result:""  },      //  result : 1-6  /* 1:  新建 2:扩建 */
 
 	],  
 }
