@@ -47,7 +47,25 @@ the format 2:
 }
 
 
+the format 3:
+{
+	attrs:[{},{}],
+	attridx:x,
+	roof: {
+		poly:[p0,p1...],
+		x:123,
+		y:123,
+	}
+	groupId:x,
+	current{zdmj:"", cs:"", jzmj:""},
+	presult:""        //  result : 1-6  /* 1:  新建 2:扩建 */
 
+
+	DEL ##objectId:'12345'
+	DEL ##bid: '12334',
+	DEL ###zrzh:'by123',
+	
+}
 
 
 
