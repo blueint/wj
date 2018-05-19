@@ -78,7 +78,7 @@ the format 4:
 		y:123,
 		poly:[p0,p1...], 
 		attr:{ZDMJ:*, BID:xx, JZMJ:xx, CS:xx},
-		groupIdx:x, 
+		groupId:x, 
 	}],
 
 	current:{zdmj:"", cs:"", jzmj:""}
