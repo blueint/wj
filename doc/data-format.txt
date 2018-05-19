@@ -50,21 +50,40 @@ the format 2:
 the format 3:
 {
 	attrs:[{},{}],
-	attridx:x,
+	attrIdx:x,
 	roof: {
 		poly:[p0,p1...],
 		x:123,
 		y:123,
 	}
 	groupId:x,
-	current{zdmj:"", cs:"", jzmj:""},
-	presult:""        //  result : 1-6  /* 1:  新建 2:扩建 */
+	current: {zdmj:"", cs:"", jzmj:""},
+	result:""        //  result : 1-6  /* 1:  新建 2:扩建 */
 
 
-	DEL ##objectId:'12345'
-	DEL ##bid: '12334',
-	DEL ###zrzh:'by123',
+	// redundant fields, however, using for quick search.
+	objectId:'12345'
+	bid: '12334',
+	zrzh:'by123',
 	
+}
+
+the format 4:
+{
+	bid: 'by123',
+
+    # roof list
+	roofs:[ {
+		x:123,
+		y:123,
+		poly:[p0,p1...], 
+		attr:{ZDMJ:*, BID:xx, JZMJ:xx, CS:xx},
+		groupIdx:x, 
+		current:{zdmj:"", cs:"", jzmj:""}
+	}],
+
+	result:""        //  result : 1-6  /* 1:  新建 2:扩建 */
+
 }
 
 
