@@ -79,9 +79,9 @@ the format 4:
 		poly:[p0,p1...], 
 		attr:{ZDMJ:*, BID:xx, JZMJ:xx, CS:xx},
 		groupIdx:x, 
-		current:{zdmj:"", cs:"", jzmj:""}
 	}],
 
+	current:{zdmj:"", cs:"", jzmj:""}
 	result:""        //  result : 1-6  /* 1:  新建 2:扩建 */
 
 }
